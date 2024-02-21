@@ -13,7 +13,16 @@ TP1 DOCKER :
 - Téléchargez l'image Docker depuis Docker Hub sur votre machine en utilisant la commande « docker pull » :
 	
 
-6) Ensuite on éxécute un conteneur à partir de cette image en utilisant la commande « docker run ». On mappe les ports appropriés pour accéder au serveur web depuis ma machine hôte. Par exemple, pour exposer le port 80 du conteneur Nginx sur le port 8080 de votre machine hôte, vous pouvez taper la commande suivante « docker run -d -p 8080:80 nginx » :
+
+
+
+				
+6) Ensuite on exécute un conteneur à partir de cette image en utilisant la commande « docker run ». On mappe les ports appropriés pour accéder au serveur web depuis ma machine hôte. Par exemple, pour exposer le port 80 du conteneur Nginx sur le port 8080 de notre machine hôte, on  peux taper la commande suivante « docker run -d -p 8080:80 nginx » :
+
+
+
+Voilà le résultat après l’exécution des commandes : 
+
 
 7) Pour vérifier si l’on dispose bien d'une image Docker localement sur notre système, on peux utiliser la commande « docker images »
-											
+		
